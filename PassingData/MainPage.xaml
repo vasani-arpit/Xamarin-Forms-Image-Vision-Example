@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="PassingData.MainPage"
+			 Title="Main Page">
+  <ContentPage.ToolbarItems>
+    <ToolbarItem
+        Order="Default" Text="Add Image" Clicked="MenuItem_OnClicked" />
+  </ContentPage.ToolbarItems>
+  <ContentPage.Content>
+    <StackLayout x:Name="Layout">
+      <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Image x:Name="CapturedImage" Rotation="90"/>
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
